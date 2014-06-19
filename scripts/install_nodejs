@@ -14,5 +14,3 @@ cd node-v0.10.26/
 ./configure
 make
 make install
-
-npm install -g nodemon
