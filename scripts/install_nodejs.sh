@@ -9,3 +9,8 @@ cd node-v0.10.26/
 sudo ./configure
 sudo make
 sudo make install
+
+cd ..
+
+sudo rm -R node-v0.10.26/
+sudo rm node-v0.10.26.tar.gz

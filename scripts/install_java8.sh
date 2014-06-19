@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 
-sudo add-apt-repository ppa:webupd8team/java
+sudo add-apt-repository -y ppa:webupd8team/java
 
-sudo apt-get install oracle-java8-installer
+sudo apt-get update
 
-sudo apt-get install oracle-java8-set-default
+sudo apt-get install -y oracle-java8-installer
+
+sudo apt-get install -y oracle-java8-set-default

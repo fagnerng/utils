@@ -1,9 +1,15 @@
 #!/usr/bin/env bash
 
-# TODO install everything!!
-
-echo 'Installing Essentials...'
-
 ./install_essentials.sh
 
-echo 'Essentials installed.' 
+./install_chromex86.sh
+
+./install_git.sh
+
+./install_java8.sh
+
+./install_sublime-text-2.sh
+
+./install_nodejs.sh
+
+./install_zsh.sh
