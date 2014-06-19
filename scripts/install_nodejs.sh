@@ -5,7 +5,7 @@ sudo apt-get update
 # Instalando Dependencias:
 sudo apt-get install -y g++ curl libssl-dev apache2-utils unzip make gcc make build-essential
 
-sudo wget http://nodejs.org/dist/v0.10.26/node-v0.10.26.tar.gz
+wget http://nodejs.org/dist/v0.10.26/node-v0.10.26.tar.gz
 
 tar -xf node-v0.10.26.tar.gz
 
